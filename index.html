@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="index.html" class="logo">Portfolio.</a>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar" id="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Yumeka Shimomura</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          Passionate, motivated, and eager to learn and grow in the world of web
+          development.
+        </p>
+        <a href="contact.html" class="btn-box">Hire Me</a>
+      </div>
+      <div class="home-img">
+        <img src="images/yumeka-img.png" alt="Yumeka" />
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/yumeka-img.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Front end Developer</h4>
+        <p>
+          I am an aspiring front-end developer with no professional experience
+          yet, but I am passionate about learning and improving my skills every
+          day. Currently, I am studying HTML, CSS, and JavaScript, and I enjoy
+          building responsive and user-friendly websites. My goal is to grow
+          into a developer who can create designs that are not only functional
+          but also visually engaging.
+        </p>
+        <a href="contact.html" class="btn-box">Hire Me</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="service-list">
+          <div class="service-item">
+            <i class="bx bxs-code" style="color: #db2777"></i>
+            <h2>Website Creation</h2>
+            <p>
+              I will provide flexible proposals according to your needs. Let’s
+              work together to create a website that achieves your goals.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="bx bxs-spanner" style="color: #db2777"></i>
+            <h2>Website Updates</h2>
+            <p>
+              I can help with small issues on your website, such as text changes
+              or layout problems.
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="bx bxs-discussion" style="color: #db2777"></i>
+            <h2>Website Consultation</h2>
+            <p>
+              I offer free consultations regarding website creation. Feel free
+              to ask about anything, no matter how small.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills-wrapper">
+      <h1 class="sub-title">My <span>Skills</span></h1>
+
+      <!-- Technical Skills -->
+      <div class="container1" id="skills">
+        <h2 class="heading1">Technical Skills</h2>
+        <div class="technical-bars">
+          <div class="bar">
+            <i class="fa-brands fa-html5" style="color: #c95d2e"></i>
+            <div class="info"><span>HTML</span></div>
+            <div class="progress-line html"><span></span></div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-css3-alt" style="color: #147bbc"></i>
+            <div class="info"><span>CSS</span></div>
+            <div class="progress-line css"><span></span></div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-js-square" style="color: #f7df1e"></i>
+            <div class="info"><span>JavaScript</span></div>
+            <div class="progress-line javascript"><span></span></div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-github" style="color: #181717"></i>
+            <div class="info"><span>Version Control</span></div>
+            <div class="progress-line github"><span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Skills -->
+      <div class="container1">
+        <h2 class="heading1">Professional Skills</h2>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg viewBox="0 0 200 200">
+              <circle class="progress-bg" cx="100" cy="100" r="80"></circle>
+              <circle
+                class="path"
+                data-percent="90"
+                cx="100"
+                cy="100"
+                r="80"
+              ></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg viewBox="0 0 200 200">
+              <circle class="progress-bg" cx="100" cy="100" r="80"></circle>
+              <circle
+                class="path"
+                data-percent="85"
+                cx="100"
+                cy="100"
+                r="80"
+              ></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg viewBox="0 0 200 200">
+              <circle class="progress-bg" cx="100" cy="100" r="80"></circle>
+              <circle
+                class="path"
+                data-percent="70"
+                cx="100"
+                cy="100"
+                r="80"
+              ></circle>
+            </svg>
+            <div class="percentage">70%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg viewBox="0 0 200 200">
+              <circle class="progress-bg" cx="100" cy="100" r="80"></circle>
+              <circle
+                class="path"
+                data-percent="95"
+                cx="100"
+                cy="100"
+                r="80"
+              ></circle>
+            </svg>
+            <div class="percentage">95%</div>
+            <div class="text">Continuous Learning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <h1 class="sub-title">My <span>Projects</span></h1>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.png" alt="Portfolio 1" />
+          <div class="portfolio-layer">
+            <h4>Restaurant Website</h4>
+            <p>HTML・CSSで作成したレスポンシブ対応のレストランサイト。</p>
+            <a
+              href="https://yumeka-shimomura.github.io/recipe-diary2/"
+              target="_blank"
+            >
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio2.png" alt="Portfolio 2" />
+          <div class="portfolio-layer">
+            <h4>Portfolio Website</h4>
+            <p>自己紹介用にデザインしたシンプルなポートフォリオサイト。</p>
+            <a href="https://your-link-here.com" target="_blank">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.png" alt="Portfolio 3" />
+          <div class="portfolio-layer">
+            <h4>Landing Page</h4>
+            <p>イベント用のシンプルなランディングページ。</p>
+            <a
+              href="https://yumeka-shimomura.github.io/EC-site/"
+              target="_blank"
+            >
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="portfolio.html" class="btn-box">More Projects</a>
+    </section>
+
+    <!-- Certification -->
+    <section class="certification" id="certification">
+      <div class="container">
+        <h1 class="sub-title">My <span>Certification</span></h1>
+        <div class="certification-list">
+          <div class="certification-item">
+            <i class="fa-brands fa-html5" style="color: #c95d2e"></i>
+            <i class="fa-brands fa-css3-alt" style="color: #147bbc"></i>
+            <h2>HTML and CSS in Depth</h2>
+            <a
+              href="https://coursera.org/share/89996dc3f2c4ec329da33e870c4e611b"
+              target="_blank"
+              class="cert-btn"
+              >View Certificate</a
+            >
+          </div>
+          <div class="certification-item">
+            <i class="fa-brands fa-js-square" style="color: #f7df1e"></i>
+            <h2>Programming with JavaScript</h2>
+            <a
+              href="https://coursera.org/share/bf27fa27fdb7d7096fa8d3a5be27aabf"
+              target="_blank"
+              class="cert-btn"
+              >View Certificate</a
+            >
+          </div>
+          <div class="certification-item">
+            <i class="fa-brands fa-github" style="color: #181717"></i>
+            <h2>Version Control</h2>
+            <a
+              href="https://coursera.org/share/505dd99afbad5937fab1bf33f8106a89"
+              target="_blank"
+              class="cert-btn"
+              >View Certificate</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-hero">
+      <h2>Contact <span>Me</span></h2>
+      <p>仕事の依頼や質問はこちらからご連絡ください。</p>
+    </section>
+
+    <section class="contact-form-section">
+      <form
+        action="mailto:yourname@example.com"
+        method="POST"
+        enctype="text/plain"
+        class="contact-form"
+      >
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit" class="btn-box">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Yumeka. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
