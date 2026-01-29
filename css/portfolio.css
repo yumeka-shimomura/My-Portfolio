@@ -40,7 +40,7 @@ body {
 }
 
 .hamburger {
-  display: none; /* デフォルト非表示 */
+  display: none; 
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
