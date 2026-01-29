@@ -164,8 +164,8 @@ body {
 .about-img {
   width: 400px;
   max-width: 100%;
-  background-size: cover; /* 画像を要素に合わせて拡大・縮小 */
-  background-position: center; /* 中心を基準に配置 */
+  background-size: cover; 
+  background-position: center; 
   margin: 0 auto;
 }
 
@@ -328,14 +328,14 @@ body {
     transform: scaleX(0);
   }
   50% {
-    transform: scaleX(1); /* 最大まで伸びる */
+    transform: scaleX(1); 
   }
   100% {
-    transform: scaleX(0); /* 元に戻る */
+    transform: scaleX(0);
   }
 }
 
-/* 個別のバー幅も維持 */
+
 
 .progress-line.html span {
   width: 90%;
@@ -412,7 +412,7 @@ body {
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
